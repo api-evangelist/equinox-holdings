@@ -44,7 +44,7 @@ apis:
   - Luxury Fitness
   - Lifestyle
   properties:
-  - type: WebSite
+  - type: Website
     url: https://www.equinox.com
   - type: AboutUs
     url: https://www.equinox.com/the-company
@@ -72,7 +72,7 @@ apis:
   - Spa
   - Luxury
   properties:
-  - type: WebSite
+  - type: Website
     url: https://www.equinox.com
   - type: Clubs
     url: https://www.equinox.com/clubs
@@ -105,7 +105,7 @@ apis:
   - Connected Fitness
   - At-Home Bike
   properties:
-  - type: WebSite
+  - type: Website
     url: https://www.soul-cycle.com
   - type: Studios
     url: https://www.soul-cycle.com/studios
@@ -132,7 +132,7 @@ apis:
   - Wellness
   - Sleep
   properties:
-  - type: WebSite
+  - type: Website
     url: https://www.equinox-hotels.com
   - type: Destinations
     url: https://www.equinox-hotels.com/destinations
@@ -153,7 +153,7 @@ apis:
   - Wellness
   - Teacher Training
   properties:
-  - type: WebSite
+  - type: Website
     url: https://www.pureyoga.com
   - type: Studios
     url: https://www.pureyoga.com/locations
@@ -173,7 +173,7 @@ apis:
   - Mass Market
   - Restructured
   properties:
-  - type: WebSite
+  - type: Website
     url: https://www.blinkfitness.com
   - type: Locations
     url: https://www.blinkfitness.com/gyms
@@ -194,7 +194,7 @@ apis:
   - Live Classes
   - Consumer
   properties:
-  - type: WebSite
+  - type: Website
     url: https://www.equinoxplus.com
   - type: iOSApp
     url: https://apps.apple.com/us/app/equinox/id330684063
@@ -216,7 +216,7 @@ apis:
   - Concierge
   - Personalization
   properties:
-  - type: WebSite
+  - type: Website
     url: https://www.equinox.com/e-by-equinox
 - name: Precision Run
   description: |-
@@ -230,7 +230,7 @@ apis:
   - Connected Fitness
   - On-Demand
   properties:
-  - type: WebSite
+  - type: Website
     url: https://www.equinox.com/classes/precision-run
 - name: Equinox Media
   description: |-
@@ -243,10 +243,10 @@ apis:
   - Content Production
   - Internal
   properties:
-  - type: WebSite
+  - type: Website
     url: https://www.equinox.com
 common:
-- type: WebSite
+- type: Website
   url: https://www.equinox.com
 - type: AboutUs
   url: https://www.equinox.com/the-company
