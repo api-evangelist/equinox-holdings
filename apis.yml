@@ -246,6 +246,8 @@ apis:
   - type: Website
     url: https://www.equinox.com
 common:
+- type: DomainSecurity
+  url: security/equinox-holdings-domain-security.yml
 - type: Website
   url: https://www.equinox.com
 - type: AboutUs
