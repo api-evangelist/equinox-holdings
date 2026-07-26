@@ -9,41 +9,217 @@ description: |-
   publish a public developer program, OpenAPI specification, SDKs, or a GitHub organization;
   all consumer experiences are delivered through its native iOS/Android apps and websites,
   with no documented partner or open API surface.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 image: https://avatars.githubusercontent.com/u/equinox-holdings
 url: https://github.com/api-evangelist/equinox-holdings
 created: 2026-05-22
-modified: 2026-05-23
+modified: '2026-07-25'
 specificationVersion: "0.20"
 tags:
-- Fitness
-- Luxury
-- Health
-- Wellness
-- Hospitality
-- Hotels
-- Yoga
-- Cycling
-- Personal Training
-- Mobile App
-- Streaming
-- Consumer
-- Membership
-- Lifestyle
-apis:
-- name: Equinox Holdings — Corporate
-  description: |-
-    Parent company surface for Equinox Holdings, the privately held luxury fitness and
-    lifestyle group. Acts as the corporate umbrella over Equinox, SoulCycle, Pure Yoga,
-    Blink Fitness, Equinox Hotels, and Equinox+. No public developer API is offered at the
-    holding-company level.
-  humanURL: https://www.equinox.com
-  baseURL: https://www.equinox.com
-  tags:
-  - Corporate
-  - Holding Company
-  - Luxury Fitness
+  - Fitness
+  - Luxury
+  - Health
+  - Wellness
+  - Hospitality
+  - Hotels
+  - Yoga
+  - Cycling
+  - Personal Training
+  - Mobile App
+  - Streaming
+  - Consumer
+  - Membership
   - Lifestyle
-  properties:
+apis:
+  - name: Equinox Fitness Clubs
+    description: |-
+      The flagship luxury fitness club brand. Operates more than 300 clubs across major U.S.
+      cities, plus London, Toronto, and Vancouver. Offers signature group fitness, personal
+      training (EFTI-certified), Pilates, spa, and shop services. Consumer membership only —
+      no public partner or developer API.
+    humanURL: https://www.equinox.com
+    baseURL: https://www.equinox.com
+    tags:
+      - Fitness Clubs
+      - Personal Training
+      - Pilates
+      - Group Fitness
+      - Spa
+      - Luxury
+    properties:
+      - type: Website
+        url: https://www.equinox.com
+      - type: Clubs
+        url: https://www.equinox.com/clubs
+      - type: Membership
+        url: https://www.equinox.com/membership
+      - type: PersonalTraining
+        url: https://www.equinox.com/personal-training
+      - type: SignatureClasses
+        url: https://www.equinox.com/classes
+      - type: Spa
+        url: https://www.equinox.com/spa
+      - type: Shop
+        url: https://shop.equinox.com
+      - type: iOSApp
+        url: https://apps.apple.com/us/app/equinox/id330684063
+      - type: AndroidApp
+        url: https://play.google.com/store/apps/details?id=com.equinox.equinoxplus
+  - name: SoulCycle
+    description: |-
+      Boutique indoor rhythm cycling brand acquired by Equinox in 2011. Forty-five-minute
+      candlelit cycling classes set to music, with locations in New York, the Hamptons,
+      Chicago, Los Angeles, and other U.S. markets. Also sells the SoulCycle At-Home Bike
+      (requires Equinox+ subscription). Consumer-only — no public API.
+    humanURL: https://www.soul-cycle.com
+    baseURL: https://www.soul-cycle.com
+    tags:
+      - Cycling
+      - Indoor Cycling
+      - Boutique Fitness
+      - Connected Fitness
+      - At-Home Bike
+    properties:
+      - type: Website
+        url: https://www.soul-cycle.com
+      - type: Studios
+        url: https://www.soul-cycle.com/studios
+      - type: AtHomeBike
+        url: https://www.soul-cycle.com/at-home-bike
+      - type: Schedule
+        url: https://www.soul-cycle.com/reservations
+      - type: iOSApp
+        url: https://apps.apple.com/us/app/soulcycle/id436641828
+      - type: AndroidApp
+        url: https://play.google.com/store/apps/details?id=com.soulcycle.soulcycleapp
+  - name: Equinox Hotels
+    description: |-
+      Luxury hospitality brand positioned as "The Pioneer of Performance Luxury." Operates
+      properties in New York City (33 Hudson Yards), with additional destinations announced
+      in Amaala (Saudi Arabia) and Anguilla. Rooms are engineered around sleep, movement,
+      nutrition, and regeneration. Public booking site only — no partner API.
+    humanURL: https://www.equinox-hotels.com
+    baseURL: https://www.equinox-hotels.com
+    tags:
+      - Hotels
+      - Hospitality
+      - Luxury Travel
+      - Wellness
+      - Sleep
+    properties:
+      - type: Website
+        url: https://www.equinox-hotels.com
+      - type: Destinations
+        url: https://www.equinox-hotels.com/destinations
+      - type: HudsonYards
+        url: https://www.equinox-hotels.com/hudson-yards
+      - type: Reservations
+        url: https://www.equinox-hotels.com/reservations
+  - name: Pure Yoga
+    description: |-
+      Equinox-owned boutique yoga studio brand operating premium yoga studios in New York,
+      Hong Kong, Shanghai, Taipei, and Singapore. Offers a wide range of yoga styles, teacher
+      training, and workshops. Consumer-only — no public developer API.
+    humanURL: https://www.pureyoga.com
+    baseURL: https://www.pureyoga.com
+    tags:
+      - Yoga
+      - Boutique Fitness
+      - Wellness
+      - Teacher Training
+    properties:
+      - type: Website
+        url: https://www.pureyoga.com
+      - type: Studios
+        url: https://www.pureyoga.com/locations
+      - type: TeacherTraining
+        url: https://www.pureyoga.com/teacher-training
+  - name: Blink Fitness
+    description: |-
+      Equinox Holdings' value-tier gym brand operating low-cost monthly memberships at
+      locations across the U.S. Northeast and select markets. In 2024 Blink Fitness filed
+      for Chapter 11 bankruptcy and locations were subsequently sold to PureGym; this entry
+      is retained for historical brand-portfolio context.
+    humanURL: https://www.blinkfitness.com
+    baseURL: https://www.blinkfitness.com
+    tags:
+      - Fitness Clubs
+      - Value Tier
+      - Mass Market
+      - Restructured
+    properties:
+      - type: Website
+        url: https://www.blinkfitness.com
+      - type: Locations
+        url: https://www.blinkfitness.com/gyms
+  - name: Equinox+
+    description: |-
+      Consumer streaming fitness app delivering live and on-demand classes across SoulCycle,
+      Pure Yoga, Precision Run, [solidcore], TB12, Equinox, and HeadStrong programming.
+      Available on iOS and Android with a seven-day complimentary trial. Required for the
+      SoulCycle At-Home Bike. App has internal mobile/backend APIs but exposes no public
+      developer API, OpenAPI, or partner program.
+    humanURL: https://www.equinoxplus.com
+    baseURL: https://www.equinoxplus.com
+    tags:
+      - Streaming
+      - Mobile App
+      - Connected Fitness
+      - On-Demand
+      - Live Classes
+      - Consumer
+    properties:
+      - type: Website
+        url: https://www.equinoxplus.com
+      - type: iOSApp
+        url: https://apps.apple.com/us/app/equinox/id330684063
+      - type: AndroidApp
+        url: https://play.google.com/store/apps/details?id=com.equinox.equinoxplus
+      - type: AppleTV
+        url: https://apps.apple.com/us/app/equinox/id330684063
+  - name: E by Equinox
+    description: |-
+      Ultra-luxury, invitation-only tier of Equinox membership offering hyper-personalized
+      coaching, recovery, nutrition, and concierge services at select flagship clubs.
+      Membership is private and not openly priced.
+    humanURL: https://www.equinox.com/e-by-equinox
+    baseURL: https://www.equinox.com/e-by-equinox
+    tags:
+      - Ultra Luxury
+      - Membership
+      - Invitation Only
+      - Concierge
+      - Personalization
+    properties:
+      - type: Website
+        url: https://www.equinox.com/e-by-equinox
+  - name: Precision Run
+    description: |-
+      Equinox-owned indoor running concept and class format offered both inside Equinox
+      clubs and as on-demand programming on Equinox+. No public API surface.
+    humanURL: https://www.equinox.com/classes/precision-run
+    baseURL: https://www.equinox.com/classes/precision-run
+    tags:
+      - Running
+      - Tread
+      - Connected Fitness
+      - On-Demand
+    properties:
+      - type: Website
+        url: https://www.equinox.com/classes/precision-run
+common:
+  - type: DomainSecurity
+    url: security/equinox-holdings-domain-security.yml
   - type: Website
     url: https://www.equinox.com
   - type: AboutUs
@@ -52,226 +228,22 @@ apis:
     url: https://careers.equinox.com
   - type: Press
     url: https://press.equinox.com
+  - type: Privacy
+    url: https://www.equinox.com/privacy-policy
+  - type: TermsOfService
+    url: https://www.equinox.com/terms-of-use
   - type: ContactUs
     url: https://www.equinox.com/contact-us
-  - type: Investors
-    url: https://www.related.com
-- name: Equinox Fitness Clubs
-  description: |-
-    The flagship luxury fitness club brand. Operates more than 300 clubs across major U.S.
-    cities, plus London, Toronto, and Vancouver. Offers signature group fitness, personal
-    training (EFTI-certified), Pilates, spa, and shop services. Consumer membership only —
-    no public partner or developer API.
-  humanURL: https://www.equinox.com
-  baseURL: https://www.equinox.com
-  tags:
-  - Fitness Clubs
-  - Personal Training
-  - Pilates
-  - Group Fitness
-  - Spa
-  - Luxury
-  properties:
-  - type: Website
-    url: https://www.equinox.com
-  - type: Clubs
-    url: https://www.equinox.com/clubs
-  - type: Membership
-    url: https://www.equinox.com/membership
-  - type: PersonalTraining
-    url: https://www.equinox.com/personal-training
-  - type: SignatureClasses
-    url: https://www.equinox.com/classes
-  - type: Spa
-    url: https://www.equinox.com/spa
-  - type: Shop
-    url: https://shop.equinox.com
-  - type: iOSApp
-    url: https://apps.apple.com/us/app/equinox/id330684063
-  - type: AndroidApp
-    url: https://play.google.com/store/apps/details?id=com.equinox.equinoxplus
-- name: SoulCycle
-  description: |-
-    Boutique indoor rhythm cycling brand acquired by Equinox in 2011. Forty-five-minute
-    candlelit cycling classes set to music, with locations in New York, the Hamptons,
-    Chicago, Los Angeles, and other U.S. markets. Also sells the SoulCycle At-Home Bike
-    (requires Equinox+ subscription). Consumer-only — no public API.
-  humanURL: https://www.soul-cycle.com
-  baseURL: https://www.soul-cycle.com
-  tags:
-  - Cycling
-  - Indoor Cycling
-  - Boutique Fitness
-  - Connected Fitness
-  - At-Home Bike
-  properties:
-  - type: Website
-    url: https://www.soul-cycle.com
-  - type: Studios
-    url: https://www.soul-cycle.com/studios
-  - type: AtHomeBike
-    url: https://www.soul-cycle.com/at-home-bike
-  - type: Schedule
-    url: https://www.soul-cycle.com/reservations
-  - type: iOSApp
-    url: https://apps.apple.com/us/app/soulcycle/id436641828
-  - type: AndroidApp
-    url: https://play.google.com/store/apps/details?id=com.soulcycle.soulcycleapp
-- name: Equinox Hotels
-  description: |-
-    Luxury hospitality brand positioned as "The Pioneer of Performance Luxury." Operates
-    properties in New York City (33 Hudson Yards), with additional destinations announced
-    in Amaala (Saudi Arabia) and Anguilla. Rooms are engineered around sleep, movement,
-    nutrition, and regeneration. Public booking site only — no partner API.
-  humanURL: https://www.equinox-hotels.com
-  baseURL: https://www.equinox-hotels.com
-  tags:
-  - Hotels
-  - Hospitality
-  - Luxury Travel
-  - Wellness
-  - Sleep
-  properties:
-  - type: Website
-    url: https://www.equinox-hotels.com
-  - type: Destinations
-    url: https://www.equinox-hotels.com/destinations
-  - type: HudsonYards
-    url: https://www.equinox-hotels.com/hudson-yards
-  - type: Reservations
-    url: https://www.equinox-hotels.com/reservations
-- name: Pure Yoga
-  description: |-
-    Equinox-owned boutique yoga studio brand operating premium yoga studios in New York,
-    Hong Kong, Shanghai, Taipei, and Singapore. Offers a wide range of yoga styles, teacher
-    training, and workshops. Consumer-only — no public developer API.
-  humanURL: https://www.pureyoga.com
-  baseURL: https://www.pureyoga.com
-  tags:
-  - Yoga
-  - Boutique Fitness
-  - Wellness
-  - Teacher Training
-  properties:
-  - type: Website
-    url: https://www.pureyoga.com
-  - type: Studios
-    url: https://www.pureyoga.com/locations
-  - type: TeacherTraining
-    url: https://www.pureyoga.com/teacher-training
-- name: Blink Fitness
-  description: |-
-    Equinox Holdings' value-tier gym brand operating low-cost monthly memberships at
-    locations across the U.S. Northeast and select markets. In 2024 Blink Fitness filed
-    for Chapter 11 bankruptcy and locations were subsequently sold to PureGym; this entry
-    is retained for historical brand-portfolio context.
-  humanURL: https://www.blinkfitness.com
-  baseURL: https://www.blinkfitness.com
-  tags:
-  - Fitness Clubs
-  - Value Tier
-  - Mass Market
-  - Restructured
-  properties:
-  - type: Website
-    url: https://www.blinkfitness.com
-  - type: Locations
-    url: https://www.blinkfitness.com/gyms
-- name: Equinox+
-  description: |-
-    Consumer streaming fitness app delivering live and on-demand classes across SoulCycle,
-    Pure Yoga, Precision Run, [solidcore], TB12, Equinox, and HeadStrong programming.
-    Available on iOS and Android with a seven-day complimentary trial. Required for the
-    SoulCycle At-Home Bike. App has internal mobile/backend APIs but exposes no public
-    developer API, OpenAPI, or partner program.
-  humanURL: https://www.equinoxplus.com
-  baseURL: https://www.equinoxplus.com
-  tags:
-  - Streaming
-  - Mobile App
-  - Connected Fitness
-  - On-Demand
-  - Live Classes
-  - Consumer
-  properties:
-  - type: Website
-    url: https://www.equinoxplus.com
-  - type: iOSApp
-    url: https://apps.apple.com/us/app/equinox/id330684063
-  - type: AndroidApp
-    url: https://play.google.com/store/apps/details?id=com.equinox.equinoxplus
-  - type: AppleTV
-    url: https://apps.apple.com/us/app/equinox/id330684063
-- name: E by Equinox
-  description: |-
-    Ultra-luxury, invitation-only tier of Equinox membership offering hyper-personalized
-    coaching, recovery, nutrition, and concierge services at select flagship clubs.
-    Membership is private and not openly priced.
-  humanURL: https://www.equinox.com/e-by-equinox
-  baseURL: https://www.equinox.com/e-by-equinox
-  tags:
-  - Ultra Luxury
-  - Membership
-  - Invitation Only
-  - Concierge
-  - Personalization
-  properties:
-  - type: Website
-    url: https://www.equinox.com/e-by-equinox
-- name: Precision Run
-  description: |-
-    Equinox-owned indoor running concept and class format offered both inside Equinox
-    clubs and as on-demand programming on Equinox+. No public API surface.
-  humanURL: https://www.equinox.com/classes/precision-run
-  baseURL: https://www.equinox.com/classes/precision-run
-  tags:
-  - Running
-  - Tread
-  - Connected Fitness
-  - On-Demand
-  properties:
-  - type: Website
-    url: https://www.equinox.com/classes/precision-run
-- name: Equinox Media
-  description: |-
-    Equinox Holdings' internal content/media studio producing programming for Equinox+,
-    SoulCycle At-Home, and other brand surfaces. No public API.
-  humanURL: https://www.equinox.com
-  baseURL: https://www.equinox.com
-  tags:
-  - Media
-  - Content Production
-  - Internal
-  properties:
-  - type: Website
-    url: https://www.equinox.com
-common:
-- type: DomainSecurity
-  url: security/equinox-holdings-domain-security.yml
-- type: Website
-  url: https://www.equinox.com
-- type: AboutUs
-  url: https://www.equinox.com/the-company
-- type: Careers
-  url: https://careers.equinox.com
-- type: Press
-  url: https://press.equinox.com
-- type: Privacy
-  url: https://www.equinox.com/privacy-policy
-- type: TermsOfService
-  url: https://www.equinox.com/terms-of-use
-- type: ContactUs
-  url: https://www.equinox.com/contact-us
-- type: Twitter
-  url: https://twitter.com/Equinox
-- type: Instagram
-  url: https://www.instagram.com/equinox
-- type: Facebook
-  url: https://www.facebook.com/Equinox
-- type: YouTube
-  url: https://www.youtube.com/user/equinoxfitness
-- type: LinkedIn
-  url: https://www.linkedin.com/company/equinox
+  - type: Twitter
+    url: https://twitter.com/Equinox
+  - type: Instagram
+    url: https://www.instagram.com/equinox
+  - type: Facebook
+    url: https://www.facebook.com/Equinox
+  - type: YouTube
+    url: https://www.youtube.com/user/equinoxfitness
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/equinox
 x-coverage:
   has-public-api: false
   has-openapi: false
@@ -290,5 +262,5 @@ x-coverage:
     json-schema/, examples/, rules/, plans/, rate-limits/, or finops/ artifacts — per the
     pipeline rule against creating empty/placeholder specs.
 maintainers:
-- FN: Kin Lane
-  email: info@apievangelist.com
+  - FN: Kin Lane
+    email: info@apievangelist.com
