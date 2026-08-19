@@ -24,7 +24,7 @@ image: https://avatars.githubusercontent.com/u/equinox-holdings
 url: https://github.com/api-evangelist/equinox-holdings
 created: 2026-05-22
 modified: '2026-07-25'
-specificationVersion: "0.20"
+specificationVersion: '0.23'
 tags:
   - Fitness
   - Luxury
