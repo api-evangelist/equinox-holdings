@@ -9,6 +9,17 @@ description: |-
   publish a public developer program, OpenAPI specification, SDKs, or a GitHub organization;
   all consumer experiences are delivered through its native iOS/Android apps and websites,
   with no documented partner or open API surface.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
