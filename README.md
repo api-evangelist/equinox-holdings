@@ -64,48 +64,91 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Equinox Holdings is a privately held luxury lifestyle and fitness company majority-owned by Related Companies. Its portfolio spans high-end fitness clubs, boutique cycling and yoga, value-tier gyms, luxury hospitality, and a consumer streaming fitness app. The group operates more than 300 club facilities across the United States, Canada, and the United Kingdom under the corporate tagline "It's not fitness. It's life."
+Equinox Holdings is a privately held luxury lifestyle and fitness company majority-owned by Related Companies. Its portfolio spans high-end fitness clubs (Equinox), boutique indoor cycling (SoulCycle), yoga (Pure Yoga), value-tier gyms (Blink Fitness), luxury hospitality (Equinox Hotels), and a consumer streaming fitness app (Equinox+). The group operates more than 300 club facilities across the United States, Canada, and the United Kingdom and is positioned around the tagline "It's not fitness. It's life." Equinox Holdings does not publish a public developer program, OpenAPI specification, SDKs, or a GitHub organization; all consumer experiences are delivered through its native iOS/Android apps and websites, with no documented partner or open API surface.
 
-This repository documents the Equinox Holdings brand surface for the API Evangelist network. **Equinox Holdings does not operate a public developer program.** It publishes no OpenAPI specifications, no SDKs, no developer portal, no partner-API program, no public GitHub organization, and no public rate-limit, status, or changelog page. All consumer experiences are delivered through native iOS / Android apps and brand websites, which exercise internal HTTPS APIs that are not documented externally.
+**Areas:** Fitness · Luxury · Health · Wellness · Hospitality · Hotels · Yoga · Cycling · Personal Training · Mobile App · Streaming · Consumer
 
-## Brand portfolio
+## Equinox Holdings on APIs.io
 
-| Brand | What it is | Public URL |
-|---|---|---|
-| Equinox Fitness Clubs | Flagship luxury fitness club brand, 300+ clubs across major U.S. cities plus London, Toronto, Vancouver. EFTI-certified personal training, signature classes, Pilates, spa. | https://www.equinox.com |
-| SoulCycle | Boutique 45-minute indoor rhythm cycling brand acquired by Equinox in 2011. Also sells the SoulCycle At-Home Bike (requires Equinox+). | https://www.soul-cycle.com |
-| Equinox Hotels | Luxury hospitality brand — "The Pioneer of Performance Luxury" — operating 33 Hudson Yards in NYC with announced destinations in Amaala and Anguilla. | https://www.equinox-hotels.com |
-| Pure Yoga | Boutique yoga studio brand operating in New York, Hong Kong, Shanghai, Taipei, and Singapore. | https://www.pureyoga.com |
-| Blink Fitness | Value-tier gym brand (filed Chapter 11 in 2024; locations subsequently sold to PureGym). Retained here for historical brand-portfolio context. | https://www.blinkfitness.com |
-| Equinox+ | Consumer streaming fitness app — live and on-demand classes from SoulCycle, Pure Yoga, Precision Run, [solidcore], TB12, Equinox, and HeadStrong on iOS / Android. | https://www.equinoxplus.com |
-| E by Equinox | Ultra-luxury, invitation-only membership tier with concierge-grade coaching, recovery, and nutrition at select flagship clubs. | https://www.equinox.com/e-by-equinox |
-| Precision Run | Equinox-owned indoor running class format, offered in-club and on Equinox+. | https://www.equinox.com/classes/precision-run |
-| Equinox Media | Internal content / media studio producing programming for Equinox+ and SoulCycle At-Home. | https://www.equinox.com |
+Everything profiled for Equinox Holdings is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/equinox-holdings/](https://apis.io/providers/equinox-holdings/)** — or go straight to one of the APIs or properties below.
 
-## API coverage
+### APIs (8)
 
-| Dimension | Status |
+- [Equinox Fitness Clubs](https://apis.io/apis/equinox-holdings/equinox-fitness-clubs/) — The flagship luxury fitness club brand. Operates more than 300 clubs across major U.S. cities, plus London, Toronto, and Vancouver. Offers signature group…
+- [SoulCycle](https://apis.io/apis/equinox-holdings/soulcycle/) — Boutique indoor rhythm cycling brand acquired by Equinox in 2011. Forty-five-minute candlelit cycling classes set to music, with locations in New York, the…
+- [Equinox Hotels](https://apis.io/apis/equinox-holdings/equinox-hotels/) — Luxury hospitality brand positioned as "The Pioneer of Performance Luxury." Operates properties in New York City (33 Hudson Yards), with additional…
+- [Pure Yoga](https://apis.io/apis/equinox-holdings/pure-yoga/) — Equinox-owned boutique yoga studio brand operating premium yoga studios in New York, Hong Kong, Shanghai, Taipei, and Singapore. Offers a wide range of yoga…
+- [Blink Fitness](https://apis.io/apis/equinox-holdings/blink-fitness/) — Equinox Holdings' value-tier gym brand operating low-cost monthly memberships at locations across the U.S. Northeast and select markets. In 2024 Blink…
+- [Equinox+](https://apis.io/apis/equinox-holdings/equinox/) — Consumer streaming fitness app delivering live and on-demand classes across SoulCycle, Pure Yoga, Precision Run, [solidcore], TB12, Equinox, and HeadStrong…
+- [E by Equinox](https://apis.io/apis/equinox-holdings/e-by-equinox/) — Ultra-luxury, invitation-only tier of Equinox membership offering hyper-personalized coaching, recovery, nutrition, and concierge services at select…
+- [Precision Run](https://apis.io/apis/equinox-holdings/precision-run/) — Equinox-owned indoor running concept and class format offered both inside Equinox clubs and as on-demand programming on Equinox+. No public API surface.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Equinox Holdings Domain Security](https://apis.io/security/equinox-holdings/equinox-holdings-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.equinox.com)
+- [Terms of service](https://www.equinox.com/terms-of-use)
+
+## API Evangelist rating
+
+**Kin Score 7.8** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
 |---|---|
-| Public developer portal | None |
-| OpenAPI specifications | None published |
-| SDKs | None published |
-| Public GitHub organization | None |
-| Partner API program | None documented |
-| Public pricing API | No |
-| Public status page | No |
-| Public changelog / RSS | No |
+| Discoverability | 63.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 0.0 |
+| Access clarity | 10.5 |
 
-Per the API Evangelist pipeline policy, this repository intentionally does **not** include placeholder `openapi/`, `capabilities/`, `json-schema/`, `examples/`, `rules/`, `plans/`, `rate-limits/`, or `finops/` directories — there are no real artifacts behind any of them.
+**Agent readiness 0.0** — human-only
 
-## Files in this repository
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
 
-- [`apis.yml`](apis.yml) — APIs.json-compatible index of Equinox Holdings' brand portfolio and the common corporate properties (careers, press, social, legal).
-- `README.md` — this file.
+**Regulatory alignment 7.8** — Health
 
-## Ownership and corporate context
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/equinox-holdings/](https://apis.io/providers/equinox-holdings/).
 
-Equinox Holdings is majority-owned by Related Companies; Harvey Spevak serves as Executive Chairman and Managing Partner. The company is privately held and does not publish quarterly financials or an investor-relations API. Corporate context lives at:
+## How this profile is made
 
-- Press: https://press.equinox.com
-- Careers: https://careers.equinox.com
-- Parent investor: https://www.related.com
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Equinox Holdings: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/equinox-holdings/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
